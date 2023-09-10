@@ -11,8 +11,8 @@
     <Authors>(owner)</Authors>
     <Description>A thing that does something</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/(owner)/(repo)</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/(owner)/(repo)</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/(owner)/bridge-fluentmigrator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/(owner)/bridge-fluentmigrator</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags></PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>

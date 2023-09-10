@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Prefab\Prefab.csproj" />
+    <ProjectReference Include="..\BridgeFluentmigrator\BridgeFluentmigrator.csproj" />
   </ItemGroup>
 
 </Project>
