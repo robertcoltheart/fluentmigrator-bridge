@@ -1,0 +1,40 @@
+name: Rename the project from template
+
+on: [push]
+
+permissions: write-all
+
+jobs:
+  rename-project:
+    if: ${{ !contains (github.repository, '/prefab-template') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: ${{ github.head_ref }}
+
+      - run: sudo apt-get install rename
+        shell: bash
+
+      - run: echo "PROJECT_NAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}' | sed -e 's/\b\(.\)/\u\1/g' | tr -d '-')" >> $GITHUB_ENV
+        shell: bash
+
+      - run: echo "REPOSITORY_URLNAME=$(echo '${{ github.repository }}' | awk -F '/' '{print $2}')" >> $GITHUB_ENV
+        shell: bash
+
+      - run: echo "REPOSITORY_OWNER=$(echo '${{ github.repository }}' | awk -F '/' '{print $1}')" >> $GITHUB_ENV
+        shell: bash
+
+      - name: Is this still a template
+        id: is_template
+        run: echo "::set-output name=is_template::$(ls .github/template.yml &> /dev/null && echo true || echo false)"
+
+      - name: Rename the project
+        if: steps.is_template.outputs.is_template == 'true'
+        run: .github/rename_project.sh -a ${{ env.REPOSITORY_OWNER }} -n ${{ env.PROJECT_NAME }} -u ${{ env.REPOSITORY_URLNAME }}
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Initial commit"
+          push_options: --force
