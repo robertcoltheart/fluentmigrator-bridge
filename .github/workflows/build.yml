@@ -20,7 +20,7 @@ jobs:
       - name: Fetch all tags and branches
         run: git fetch --prune --unshallow
       - name: Build
-        run: ./build.sh
+        run: ./build.ps1
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
         with:

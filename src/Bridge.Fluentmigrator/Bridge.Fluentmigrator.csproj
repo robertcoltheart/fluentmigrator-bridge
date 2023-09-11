@@ -8,11 +8,11 @@
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
-    <Authors>(owner)</Authors>
+    <Authors>robertcoltheart</Authors>
     <Description>A thing that does something</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/(owner)/bridge-fluentmigrator</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/(owner)/bridge-fluentmigrator</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/robertcoltheart/bridge-fluentmigrator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/robertcoltheart/bridge-fluentmigrator</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags></PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
