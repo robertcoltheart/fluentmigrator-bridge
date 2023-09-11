@@ -1,11 +1,11 @@
-# FluentmigratorBridge
+# FluentMigratorBridge
 
-[![NuGet](https://img.shields.io/nuget/v/FluentmigratorBridge?style=for-the-badge)](https://www.nuget.org/packages/FluentmigratorBridge) [![License](https://img.shields.io/github/license/robertcoltheart/fluentmigrator-bridge?style=for-the-badge)](https://github.com/robertcoltheart/fluentmigrator-bridge/blob/master/LICENSE)
+[![NuGet](https://img.shields.io/nuget/v/FluentMigratorBridge?style=for-the-badge)](https://www.nuget.org/packages/FluentMigratorBridge) [![License](https://img.shields.io/github/license/robertcoltheart/fluentmigrator-bridge?style=for-the-badge)](https://github.com/robertcoltheart/fluentmigrator-bridge/blob/master/LICENSE)
 
 A bridge for FluentMigrator that lets you add a single database instead of all the databases.
 
 ## Usage
-Install the package from NuGet with `dotnet add package FluentmigratorBridge`.
+Install the package from NuGet with `dotnet add package FluentMigratorBridge`.
 
 You will also need to install the corresponding `FluentMigrator.Runner.x` runner package that is for the database you want to use.
 
@@ -16,4 +16,4 @@ Raise an [issue](https://github.com/robertcoltheart/fluentmigrator-bridge/issues
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
 
 ## License
-FluentmigratorBridge is released under the [MIT License](LICENSE)
+FluentMigratorBridge is released under the [MIT License](LICENSE)

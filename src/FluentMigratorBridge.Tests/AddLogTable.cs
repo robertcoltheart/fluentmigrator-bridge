@@ -1,6 +1,6 @@
 ﻿using FluentMigrator;
 
-namespace BridgeFluentmigrator.Tests;
+namespace FluentMigratorBridge.Tests;
 
 [Migration(1)]
 public class AddLogTable : Migration

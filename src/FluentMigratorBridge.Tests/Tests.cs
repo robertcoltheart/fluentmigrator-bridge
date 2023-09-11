@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
-namespace BridgeFluentmigrator.Tests;
+namespace FluentMigratorBridge.Tests;
 
 public class Tests
 {
