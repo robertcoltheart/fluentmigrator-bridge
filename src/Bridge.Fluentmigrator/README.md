@@ -1,6 +1,4 @@
-# Bridge.Fluentmigrator
-
-[![NuGet](https://img.shields.io/nuget/v/BridgeFluentmigrator?style=for-the-badge)](https://www.nuget.org/packages/BridgeFluentmigrator) [![License](https://img.shields.io/github/license/(owner)/bridge-fluentmigrator?style=for-the-badge)](https://github.com/(owner)/bridge-fluentmigrator/blob/master/LICENSE)
+﻿## About
 
 A bridge for FluentMigrator that lets you add a single database instead of all the databases.
 
@@ -14,6 +12,3 @@ Raise an [issue](https://github.com/(owner)/bridge-fluentmigrator/issues).
 
 ## Contributing
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
-
-## License
-Bridge.Fluentmigrator is released under the [MIT License](LICENSE)
