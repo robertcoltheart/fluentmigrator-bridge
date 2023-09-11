@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Bridge.Fluentmigrator\Bridge.Fluentmigrator.csproj" />
+    <ProjectReference Include="..\FluentmigratorBridge\FluentmigratorBridge.csproj" />
   </ItemGroup>
 
 </Project>
