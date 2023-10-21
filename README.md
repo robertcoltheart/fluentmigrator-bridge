@@ -9,6 +9,8 @@ Install the package from NuGet with `dotnet add package FluentMigratorBridge`.
 
 You will also need to install the corresponding `FluentMigrator.Runner.x` runner package that is for the database you want to use.
 
+Follow the example from [here](https://fluentmigrator.github.io/articles/quickstart.html?tabs=runner-in-process) to create your first migration and runner using your chosen database.
+
 ## Get in touch
 Raise an [issue](https://github.com/robertcoltheart/fluentmigrator-bridge/issues).
 
